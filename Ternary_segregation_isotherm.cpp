@@ -141,7 +141,7 @@ int main(int argc, char* argv[])
 	//cout << "#############################################" << endl << endl;
 
 // Input parameters
-	string filename = "/home/jmurugan/NewPotentials_FCC723K/TCFE10_MOBFE5_FeNiCr_FCC_A1_723K_N1000.dat";
+	string filename = "TCFE10_MOBFE5_FeNiCr_FCC_A1_723K_N1000.dat";
     ifstream file(filename);
     int count = 0;
     char c;
@@ -158,7 +158,7 @@ int main(int argc, char* argv[])
 				     //          (6)Mobility of base element	(7)Mobility of x1	(8)Mobility of x2	(9)Composition of x1
 					 //			 (10)Composition of x2		(11)Stability Coefficient
 	
-	std::ifstream inFile("/home/jmurugan/NewPotentials_FCC723K/TCFE10_MOBFE5_FeNiCr_FCC_A1_723K_N1000.dat");
+	std::ifstream inFile("TCFE10_MOBFE5_FeNiCr_FCC_A1_723K_N1000.dat");
     std::string header;
 	std::getline(inFile, header);
 	std::string line;
