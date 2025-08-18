@@ -181,27 +181,6 @@ int main(int argc, char* argv[])
 	}
 	  inFile.close();
 
-
-  map<double, int> freq;
-  for (int i = 0; i < NUM_ROWS; i++) {
-    freq[tcdata(0, 9, i)]++;
-  }
-
-
-  vector<double> elements;
-  for (auto it = freq.begin(); it != freq.end(); it++) {
-    elements.push_back(it->first);
-  }
-  sort(elements.begin(), elements.end());
-
-  int loops = 0;
-  for (int i = 0; i < elements.size(); i++) {
-		loops=loops+1;
-  }
-
-Array3D spindata(1, 13, NUM_ROWS);
-Array3D spinoid(1, 5, NUM_ROWS);
-
 //////////////////////////////// Input parameters /////////////////////////////////////// 
 
 	//double rho1 = 0.9;
