@@ -1,6 +1,8 @@
 # GB_segregation
+The current code is developed based on the density-based thermodynamics and phase-field framework for CALPHAD-integrated Grain Boundary Thermodynamic modelling.
 Provides codes to compute grain boundary segregation profiles in ternary systems using bulk thermodynamic data. Useful for studying elemental segregation behavior, associated thermodynamics, and interfacial phase stability in multicomponent alloys.
 
+XXX Dear JM: Model and concept section and citations needed (model paper, joint papers) XXX
 
 
 ## 📚 Dependencies and Attribution
